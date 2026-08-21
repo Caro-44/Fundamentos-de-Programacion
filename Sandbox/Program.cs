@@ -16,4 +16,6 @@ Console.WriteLine("/ Greg \"El Mago\" /");
 Console.WriteLine("\\----------------\\");
 Console.WriteLine("/ HP\t100      /");
 Console.WriteLine("\\ MP\t50       \\");
+Console.WriteLine("/ Gold\t1,500    /");
+Console.WriteLine("\\ Exp\t200      \\");
 
