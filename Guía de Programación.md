@@ -42,3 +42,25 @@ Las secuencias más comunes son:
 - `\"` (Comillas Dobles): Si se quiere insertar una `"`, es necesario agregar una `\` antes para distinguirla del inicio y fin.
 - `\\` ( Barra Invertida): La `\` es el carácter inicial de todas las secuencias y se utiliza para "escapar", quedando como `\\` cuando se quiere mostrar.
 
+-----------
+
+## Colores
+
+La consola utiliza colores por defecto, por lo general suelen ser:
+- **Blanco**
+- **Negro**
+
+No obstante, es posible configurar la consola para mostrar 
+otros colores, haciendo uso de los siguientes métodos:
+
+- `Console.ForegroundColor`: Permite asignar un color al texto.
+- `Console.BackgroundColor: Permite agregar un color al fondo.
+
+Es importante regresar los colores a los valores por defecto
+una vez que se haya terminado:
+
+- `Console.ResetColor()`: Regresa los colores a los valores por defecto. 
+
+***Existen 16 colores por defecto.***
+
+-------------
