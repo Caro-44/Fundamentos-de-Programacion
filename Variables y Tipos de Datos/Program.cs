@@ -42,3 +42,40 @@ Console.WriteLine("Minimo: " + minValorfloat);
 Console.WriteLine("Valor minimo * 10 = " + minValorfloat * 10);
 Console.WriteLine("Maximo: " + maxValorfloat);
 Console.WriteLine("Valor maximo * 10 = " + maxValorfloat * 10);
+
+Console.WriteLine("\n");
+// Genera un programa en donde utilices 5 variables
+// Utiliza una mezcla de:
+// - Asignacion
+// - Declaracion
+// - Asignacion + Declaracion
+// Imprime los valores de las variables y constantes
+
+Console.WriteLine("Variables:");
+int    anos   = 22;
+Console.WriteLine("Años: " + anos);
+string nombre = "Bono";
+Console.WriteLine("Nombre: " + nombre);
+char   genero = 'M';
+Console.WriteLine("Género: " + genero);
+bool   esUniversitario = true;
+Console.WriteLine("Es universitario: " + esUniversitario);
+float  altura = 1.70f;
+Console.WriteLine("Altura: " + altura);
+double salario = 7500;
+Console.WriteLine("Salario: " + salario);
+
+Console.WriteLine("\n");
+Console.WriteLine("Constantes:");
+const int    ANOS   = 22;
+Console.WriteLine("Años: " + ANOS);
+const string NOMBRE = "Bono";
+Console.WriteLine("Nombre: " + NOMBRE);
+const char   GENERO = 'M';
+Console.WriteLine("Género: " + GENERO);
+const bool   ES_UNIVERSITARIO = true;
+Console.WriteLine("Es universitario: " + ES_UNIVERSITARIO);
+const float  ALTURA = 1.70f;
+Console.WriteLine("Altura: " + ALTURA);
+const double SALARIO = 7500;
+Console.WriteLine("Salario: " + SALARIO);
