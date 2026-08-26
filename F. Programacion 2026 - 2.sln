@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables y Tipos de Datos", "Variables y Tipos de Datos\Variables y Tipos de Datos.csproj", "{4F32DE49-FB78-413A-B80E-123122FBF357}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tipos implícitos y explícitos", "Tipos implícitos y explícitos\Tipos implícitos y explícitos.csproj", "{BCB5057B-8F76-49BB-8771-B13652D01751}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{4F32DE49-FB78-413A-B80E-123122FBF357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F32DE49-FB78-413A-B80E-123122FBF357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F32DE49-FB78-413A-B80E-123122FBF357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB5057B-8F76-49BB-8771-B13652D01751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB5057B-8F76-49BB-8771-B13652D01751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB5057B-8F76-49BB-8771-B13652D01751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB5057B-8F76-49BB-8771-B13652D01751}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
