@@ -97,7 +97,7 @@ que no puede ser cambiado una vez haya sido asignado.
 ### Tipos numéricos:
 Almacenan valores numéricos.
 Dependiendo del tipo de dato pueden ser decimales o no. 
-Tienen un límite mínio y máximo de valor que pueden guardar.
+Tienen un límite mínimo y máximo de valor que pueden guardar.
 Pueden o no tener signo y su valor por defecto es 0.
 
 ***Existen 10 tipos de enteros***
@@ -105,7 +105,7 @@ Pueden o no tener signo y su valor por defecto es 0.
 - `byte`: (0 a 255) **8 bits de tamaño.**
 - `short`: (-32,768 a 32,767) **16 bits de tamaño.**
 - `ushort`: (0 a 65,535) **16 bits de tamaño.**
-- `int`: *32 bits de tamaño.**
+- `int`: **32 bits de tamaño.**
 - `uint`: **32 bits de tamaño.**
 - `long`: **64 bits de tamaño**
 - `ulong`: **64 bits de tamaño**
@@ -151,7 +151,7 @@ son `int` & `float`
 
 ## Tipos Booleanos
 
-Las variablesd de tipo `bool` pueden almacenar uno de dos
+Las variables de tipo `bool` pueden almacenar uno de dos
 posibles valores:
 - `true`
 - `false`
@@ -175,6 +175,7 @@ Tipo de dato: `string`.
 
 ### Caracteres
 Tipo de dato: `char`
+
 **Características:**
 - Encerrado por: *Comillas simples* ` '' `
 - Capacidad: *Un carácter.*
@@ -184,7 +185,7 @@ Tipo de dato: `char`
 
 ## Identificador (Nombre)
 
-Una varianle debe ener un nombre único e irrepetible en el
+Una variable debe ener un nombre único e irrepetible en el
 bloque en el que existe.
 
 ### Reglas
@@ -224,7 +225,8 @@ Requiere:
 - *Puede o no tener valor inicial*
 
 ### Constante
-- Guarda un valor que **NO** puede cambiar
+Guarda un valor que **NO** puede cambiar
+
 Requiere:
 - Palabra reservada `const`
 - Tipo de dato
@@ -247,12 +249,13 @@ Consta de 3 elementos clave:
 2. Signo de igual
 3. Valor
 
-### Declaración + Asognación
+### Declaración + Asignación
 Utiliza los elementos de la declaración y asignación
 - Identificador
 - Signo de igual
 - Valor
-*** Es la única forma de declarar CONSTANTES (`const`)
+
+***Es la única forma de declarar CONSTANTES (`const`)***
 
 -------------
 
@@ -260,7 +263,7 @@ Utiliza los elementos de la declaración y asignación
 
 ### Tipos de datos
 
-C# es un lenguaje de "tipado fuerte", lo que signficia que
+C# es un lenguaje de "tipado fuerte", lo que signfica que
 una variable puede ser de **un y solo un** tipo de dato.
 Esto permite obtener el tipo de dato a partir del valor.
 
@@ -314,7 +317,7 @@ Aplica para tipos de datos enteros.
 ### Lógicos
 Aplica para cuando algunos de los números es decimal.
 - Siempre resulta en un tipo decimal
-- La divisipon entre 0 resulta en ∞
+- La división entre 0 resulta en ∞
 
 **MÁS EJEMPLOS DE OPERACIONES:**
 
@@ -428,7 +431,7 @@ Posible ocultar las teclas en la consola.
 - `Console.ReadKey()`
 - `Console.ReadKey(true)`
 
-Termina cuando refcibe una instrucción de salida: `ctrl+z`, `f6` o similar.
+Termina cuando recibe una instrucción de salida: `ctrl+z`, `f6` o similar.
 
 ***Se utiliza para teclas individuales y lecturas en tiempo real.***
 
@@ -506,7 +509,7 @@ Regresa dos elementos:
 Un programa se ejecuta de izquierda a derecha, de arriba a abajo.
 Un programa real necesita tomar decisiones y repetir procesos.
 
-**Las condionales permiten tomar una decisión.**
+**Las condicionales permiten tomar una decisión.**
 
 ### `ìf`
 Permite ejecutar un bloque de código solamente cuando
@@ -530,7 +533,7 @@ El orden importa:
 Pueden ejecutarse varios bloques.
 
 ### *else if*
-Se ejecura el primer bloque verdadero.
+Se ejecuta el primer bloque verdadero.
 
 ### Condicionales anidadas
 
@@ -539,7 +542,7 @@ Es posible incluir cualquier sentencia dentro de un if, incluso otros
 ifs. 
 
 ### *Combinación*
-Si una condici+on depende de otra, por lo general es más 
+Si una condición depende de otra, por lo general es más 
 claro combinarlas.
 
 ### `switch`
