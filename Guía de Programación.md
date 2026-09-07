@@ -586,4 +586,4 @@ se ejecuta el código.
 2. Seleccionar error
 3. Leer posibles soluciones
 4. Aplicar la más viable según lo que se quiera lograr
-5. Probar código nuevamente. 
+5. Probar código nuevo.
