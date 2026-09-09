@@ -89,12 +89,71 @@ Tipos de datos:
 
 -------------
 
-### OPERADORES
+## OPERADORES
 
 **Operaciones aritméticas:**
 - Suma (+)
-- Resta
-- Multiplicación
-- División
-- Moduladores
-- 
+- Resta (-)
+- Multiplicación (*)
+- División (/)
+- Moduladores (%)
+- Suma Unaria (++) - *Puede ser prefijo o sufijo.*
+- Resta Unaria (--) - *Puede ser prefijo o sufijo.*
+
+**Comparación:**
+- Igual ()
+- Diferente ()
+- Mayor que ()
+- Menor que ()
+- Mayor o igual que ()
+- Menor o igual que ()
+
+**Lógicos:**
+- AND (&&)
+- OR (||)
+- NO (!)
+
+----------------
+
+## CONVERSIONES
+
+### Tipos de conversiones
+
+1. **Conversión implícita:** Se realiza automáticamente, Rider asume que se trata de una conversión cuando NO hay pérdida de datos.
+2. **Conversión explícita:** Se debe de hacer una aclaración para forzar a Rider a realizar la conversión cuando existe una posible pérdida de datos.
+3. **Parse:** Convierte un `string` a otro tipo de variable (Ej. `int`, `float`). Llega a lanzar excepciones si falla.
+4. **TryParse:** Convierte un `string` a otro tipo de variables, no existe excepciones. Devuelve `true` si tiene éxito, o un `false` si falla.
+5. **ToString():** Convierte cualquier tipo de variable a un `string`.
+
+-------------------
+
+## CONDICIONALES
+
+- `if`, `else if`, `else`: Encargado de ejecutar bloques de código según alguna condición booleana existente (`bool`).
+- `switch`: Selecciona un bloque de código según las condiciones booleanas que existan.
+- Operador ternario: Es una forma abreviada de un `if` o `else`. Su formato es el siguiente: `condicion ? valor_si_true: valor_si_false`
+
+--------------------
+
+## FLUJO PARA ANALIZAR Y RESOLVER PROBLEMAS
+
+1. Leer y comprender el problema planteado.
+2. Identificar los datos de entrada.
+3. Identificar los datos de salida.
+4. Se comienza a diseñar el algoritmo.
+5. Definir variables
+6. Identificar posibles operaciones requeridas.
+7. Escribir el código utilizando los nombres descriptivos.
+8. Probar el código.
+9. Corregir errores.
+10. Eliminar redundancias.
+11. Mejorar legibilidad.
+
+---------------------
+
+## DEBUGGING
+
+1. Leer mensajes de error que pueden indicar problemas en las líneas.
+2. Utilizar `Console.WriteLine()` para mostrar valores intermedios.
+3. Validar la entrada del usuario.
+4. Probar con códigos simples para evitar confusiones en códigos más complejos.
