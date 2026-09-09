@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tipos implícitos y explíc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condicionales", "Condicionales\Condicionales.csproj", "{B74575C5-A40B-47E6-84FA-20DFD9459851}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simulacro de Examen", "Simulacro de Examen\Simulacro de Examen.csproj", "{904B0AB0-23C5-48EC-923B-F73AADE402E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{B74575C5-A40B-47E6-84FA-20DFD9459851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B74575C5-A40B-47E6-84FA-20DFD9459851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B74575C5-A40B-47E6-84FA-20DFD9459851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904B0AB0-23C5-48EC-923B-F73AADE402E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904B0AB0-23C5-48EC-923B-F73AADE402E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904B0AB0-23C5-48EC-923B-F73AADE402E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904B0AB0-23C5-48EC-923B-F73AADE402E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
