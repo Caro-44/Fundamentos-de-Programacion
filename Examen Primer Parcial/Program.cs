@@ -48,6 +48,7 @@
 // FIN SI
 
 // FIN
+
 Console.Write("\n");
 Console.WriteLine("Fabricación de martillo.");
 Console.WriteLine("Requisitos:");
@@ -70,15 +71,12 @@ if (siMadera == true)
 
         Console.WriteLine("No se pudo completar la fabricación. FALTA: madera.");
         Console.WriteLine("Unidades faltantes:" + maderaResta);
-
-
     }
 
     int  metal;
     bool siMetal = int.TryParse(Console.ReadLine(), out metal);
     if (siMetal == true)
     {
-
         if (metal >= 50) Console.WriteLine("Escribe la cantidad de piedra que se tiene.");
         else
         {
@@ -88,14 +86,12 @@ if (siMadera == true)
 
             Console.WriteLine("No se pudo completar la fabricación. FALTA: metal.");
             Console.WriteLine("Unidades faltantes:" + metalResta);
-
         }
 
         int  piedra;
         bool siPiedra = int.TryParse(Console.ReadLine(), out piedra);
         if (siPiedra == true)
         {
-
             if (piedra >= 20) Console.WriteLine("La fabricación del martillo fue exitosa.");
             else
             {
@@ -105,7 +101,6 @@ if (siMadera == true)
 
                 Console.WriteLine("No se pudo completar la fabricación. FALTA: piedra.");
                 Console.WriteLine("Unidades faltantes:" + piedraResta);
-
             }
 
             Console.Write("\n");
@@ -124,5 +119,3 @@ else
 {
     Console.WriteLine("El valor no es válido.");
 }
-
-
